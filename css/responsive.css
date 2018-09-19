@@ -1,0 +1,242 @@
+/*
+   Navato Theme Responsive Design
+*/
+@media (max-width: 1366px) {
+    .app-mockup {
+        right: 0;
+    }
+}
+
+@media (max-width: 1170px) {
+    .swiper-container{
+        width: 70%;
+    }
+    .download-content h2{
+        line-height: 60px;
+    }
+    .download-mockup, .app-mockup{
+        right: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-section{
+        height: 650px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .hero-section::after{
+        left: 130px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    .feature_list,
+    .about_content {
+        padding: 0;
+    } 
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .promo-content{
+        padding: 0;
+    }
+    .swiper-container{
+        width: 260px;
+    }
+    .swiper-container .swiper-slide{ text-align: center; }
+    .swiper-container .swiper-slide img,
+    .swiper-container .swiper-slide-active img{ width: 80%!important; }
+    .swiper-container .swiper-next, 
+    .swiper-container .swiper-prev{ display: none; }
+    .content-info{
+        padding-bottom: 65px;
+        padding-top: 0;
+    }
+    .download-content h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .download-content{
+        padding: 0;
+    }
+    /*.download-mockup {
+        right: -135px;
+    }*/
+    .download-btn{
+        margin: 10px 0;
+        display: block;
+    }
+    .hero-section{
+        height: 570px;
+    }
+    .pricing-wrap .col-lg-3{
+        padding: 15px;
+    }
+    .subscribe-section {
+        padding: 100px 0;
+    }
+    .widget-wave {
+        background-position: top left;
+    }
+    .subscribe-wrap{
+        padding-top: 115px;
+        padding-left: 0;
+    }
+    /*.footer {
+        bottom: -60px;
+    }*/
+    .lg-padding {
+        bottom: -40px;
+    }
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    h1{
+        font-size: 30px!important;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .play-btn:before,
+    .mock-hide,
+    p br{
+        display: none;
+    }
+    .padding{
+        padding: 70px 0;
+    }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .xs-padding.lg-padding {
+        bottom: 40px;
+    }
+    .section-heading h2{
+        font-size: 30px;
+    }
+    .section-heading p{
+        font-size: 16px;
+    }
+    .navbar-brand{
+        padding: 11px 0;
+    }
+    .menu-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .hero-section::after{
+        display: none;
+    }
+    .hero-section h1{
+        letter-spacing: 0;
+    }
+    .video-section{
+        padding-top: 0;
+    }
+    .video-box{
+        margin-top: -35px;
+        height: 280px;
+    }
+    .download-content h2,
+    .video-details h2{
+        font-size: 30px;
+    }
+    .review-item{
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    .review-thumb{
+        margin: 0 auto 20px;
+    }
+    .review-content{
+        padding: 0;
+    }
+    .rattings {
+        display: block;
+        padding-left: 0;
+        margin-bottom: 5px;
+    }
+    .download-mockup, .app-mockup{
+        display: none;
+    }
+    .download-btn {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .subscribe-section {
+        padding: 130px 0;
+    }
+    .subscribe-wrap {
+        padding-top: 0;
+    }
+    .footer {
+        /*bottom: -80px;*/
+        left: 12px;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    h1{
+        font-size: 26px!important;
+        margin: 0 0 15px;
+    }
+    .hero-section{
+        height: 460px;
+    }
+    .hero-content p{ font-size: 16px; }
+    .subscribe-form{ width: 100%; }
+    .download-content h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .download-btn a:first-child{
+        margin-bottom: 10px;
+    }
+    .social-link li{
+        margin: 0;
+    }
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
