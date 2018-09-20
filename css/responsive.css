@@ -218,6 +218,7 @@
     }
     .social-link li{
         margin: 0;
+        padding: 10px;
     }
 
     /* roadmap image switch */
