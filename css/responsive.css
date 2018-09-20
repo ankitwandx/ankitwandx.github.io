@@ -219,13 +219,22 @@
     .social-link li{
         margin: 0;
     }
+
+    /* roadmap image switch */
+    #roadmap-big {
+        display: none;
+    }
+
+    #roadmap-mobile {
+        display: block;
+    }
 }
 /* ---- End of max-width 520px CSS ---- */
 
 
 /* ---- Start of max-width 420px CSS ---- */
 @media all and (max-width: 420px) {
-    
+
 }
 /* ---- End of max-width 420px CSS ---- */
 

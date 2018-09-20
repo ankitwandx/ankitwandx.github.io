@@ -1202,3 +1202,9 @@ ul.nav > li > a.active{
     background-color: #3b21ff;
     color: #fff;
 }
+
+/* Roadmap styling */
+
+#roadmap-mobile {
+    display: none;
+}
