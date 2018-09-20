@@ -1,11 +1,6 @@
 /*
    Navato Theme Responsive Design
 */
-@media (max-width: 1366px) {
-    .app-mockup {
-        right: 0;
-    }
-}
 
 @media (max-width: 1170px) {
     .swiper-container{

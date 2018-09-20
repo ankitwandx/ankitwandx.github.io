@@ -528,14 +528,14 @@ ul.nav > li > a.active{
 }*/
 .app-mockup{
     background-image: url(../img/welcome-app.png);
-    background-position: top right;
+    background-position: top left;
     background-repeat: no-repeat;
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    right: 200px;
-    top: 120px;
+    right: 30px;
+    top: 130px;
     z-index: 1;
 }
 .hero-content{}
