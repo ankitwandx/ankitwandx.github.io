@@ -233,15 +233,51 @@
 /* ---- End of max-width 520px CSS ---- */
 
 
-/* ---- Start of max-width 420px CSS ---- */
-@media all and (max-width: 420px) {
+/* ---- Start of max-width 440px CSS ---- */
+@media all and (max-width: 440px) {
+    #content ul > li:nth-child(1){
+        padding-bottom: 14px;
+    }
 
+    #content ul > li:nth-child(2){
+        padding-bottom: 28px;
+    }
+
+    #content ul > li:nth-child(3){
+        padding-bottom: 28px;
+    }
 }
 /* ---- End of max-width 420px CSS ---- */
 
 
 /* ---- Start of max-width 380px CSS ---- */
 @media all and (max-width: 380px) {
-	
+	#content ul > li:nth-child(1){
+        padding-bottom: 30px;
+    }
+
+    #content ul > li:nth-child(2){
+        padding-bottom: 60px;
+    }
+
+    #content ul > li:nth-child(3){
+        padding-bottom: 70px;
+    }
+}
+/* ---- End of max-width 380px CSS ---- */
+
+/* ---- Start of max-width 340px CSS ---- */
+@media all and (max-width: 340px) {
+    #content ul > li:nth-child(1){
+        padding-bottom: 70px;
+    }
+
+    #content ul > li:nth-child(2){
+        padding-bottom: 70px;
+    }
+
+    #content ul > li:nth-child(3){
+        padding-bottom: 120px;
+    }
 }
 /* ---- End of max-width 380px CSS ---- */
