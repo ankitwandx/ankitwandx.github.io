@@ -50,7 +50,26 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <div class="modal fade show" id="exampleModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Alpha 1.0 Release</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                      <img src="img/favicon.png" style="width: 150px;">
+                      <h1 style="color: black;">murmur</h1>
+                      <br>
+                      <br>
+                      <h1 id="demo" style="color: #7c2289;font-size: 50px;"> </h1>
+                      <br>
+                      <h3>Alpha 1.0 Release Coming Soon</h3>
+                      <!-- Display the countdown timer in an element -->
+                    </div>
+                  </div>
+                </div>
+            </div>            
         <div id='preloader' >
             <div class='loader' >
                 <div class="battery"></div>
@@ -75,7 +94,7 @@
                 </nav>
             </div>
 		</header> <!-- Header -->
-		
+        
         <section id="home" class="hero-section about">
             <div class="container">
                 <div class="row">
@@ -83,9 +102,10 @@
                         <div class="hero-content">
                             <h1>Murmur – The Vision</h1>
                             <p>With Murmur, we are paving way for open and trustworthy interactions online.</p>
+
                             <div class="btn-group">
                                 <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                                <a href="#"><img src="img/playstore.png" alt="playstore"></a>
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"><a class="download-btn"ref="#"><img src="img/playstore_comingSoon.png"  height="54" width="175"alt="Download Play Store"></a></button></button> 
                             </div>
                         </div>
                     </div>
@@ -115,7 +135,7 @@
                     <p>The mined data guides AI models and optimization schemes, which corporations heavily monetize to their own benefit. Social media revolutionised the way information is dissipated on the internet. But currently, it exists in a very shaky state, as we have seen with the recent developments in various privacy crises and the stonewalling of power figures in taking action.</p>
                     <p>As the next billion human beings populate the internet, problems will only be aggravated in this broken model.
                     </p>
-                    <h3>Enter:Murmur</h3></p>
+                    <h3>Enter: Murmur</h3>
                     <p>As you may understand, the problem we are trying to solve is that of data control and exploitation. Murmur is a decentralised micro-blogging platform, built on top of a blockchain.</p>
                     <p>Blockchains are distributed ledgers, maintained by large groups of network nodes on the internet. Due to its very construction, the blockchain enables decentralised economies – where all participants have the right to create new value, while being able to transact freely and anonymously.</p>
                     <p>Murmur turns a new chapter in how we interact and govern ourselves as communities, by keeping the mechanics of the platform transparent. All transactions taking place on the blockchain are visible to everyone, and can be traced back to their origin</p>
@@ -140,17 +160,22 @@
                         <ul class="social-link">
                             <li>
                                 <a href="https://www.facebook.com/murmurdapp" target="_blank">
-                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook fa-2x"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://medium.com/murmurdapp" target="_blank">
-                                    <i class="fa fa-medium"></i>
+                                    <i class="fa fa-medium fa-2x"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/Murmurdapp" target="_blank">
-                                    <i class="fa fa-github"></i>
+                                    <i class="fa fa-github fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="t.me/murmurdapp" target="_blank">
+                                    <i class="fa fa-telegram fa-2x"></i>
                                 </a>
                             </li>
                             <!-- <li>
@@ -205,7 +230,8 @@
         <!-- Venobox JS -->
         <script src="js/vendor/venobox.min.js"></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/popUpCounter.js"></script>
 
         <!-- mailchimp -->
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>

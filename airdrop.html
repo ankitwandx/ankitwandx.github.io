@@ -50,7 +50,26 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <div class="modal fade show" id="exampleModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Alpha 1.0 Release</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                      <img src="img/favicon.png" style="width: 150px;">
+                      <h1 style="color: black;">murmur</h1>
+                      <br>
+                      <br>
+                      <h1 id="demo" style="color: #7c2289;font-size: 50px;"> </h1>
+                      <br>
+                      <h3>Alpha 1.0 Release Coming Soon</h3>
+                      <!-- Display the countdown timer in an element -->
+                    </div>
+                  </div>
+                </div>
+            </div>            
         <div id='preloader' >
             <div class='loader' >
                 <div class="battery"></div>
@@ -85,7 +104,7 @@
                             <p>Follow the steps below and be among the first to receive EOS MUR tokens</p>
                             <div class="btn-group">
                                 <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                                <a href="#"><img src="img/playstore.png" alt="playstore"></a>
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"><a class="download-btn"ref="#"><img src="img/playstore_comingSoon.png"  height="54" width="175"alt="Download Play Store"></a></button></button> 
                             </div>
                         </div>
                     </div>
@@ -148,17 +167,22 @@
                         <ul class="social-link">
                             <li>
                                 <a href="https://www.facebook.com/murmurdapp" target="_blank">
-                                    <i class="fa fa-facebook"></i>
+                                    <i class="fa fa-facebook fa-2x"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://medium.com/murmurdapp" target="_blank">
-                                    <i class="fa fa-medium"></i>
+                                    <i class="fa fa-medium fa-2x"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://github.com/Murmurdapp" target="_blank">
-                                    <i class="fa fa-github"></i>
+                                    <i class="fa fa-github fa-2x"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="t.me/murmurdapp" target="_blank">
+                                    <i class="fa fa-telegram fa-2x"></i>
                                 </a>
                             </li>
                             <!-- <li>
@@ -213,7 +237,8 @@
         <!-- Venobox JS -->
         <script src="js/vendor/venobox.min.js"></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/popUpCounter.js"></script>
 
         <!-- mailchimp -->
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>

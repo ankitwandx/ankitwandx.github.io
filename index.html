@@ -50,7 +50,26 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
+        <div class="modal fade show" id="exampleModal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Alpha 1.0 Release</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                      <img src="img/favicon.png" style="width: 150px;">
+                      <h1 style="color: black;">murmur</h1>
+                      <br>
+                      <br>
+                      <h1 id="demo" style="color: #7c2289;font-size: 50px;"> </h1>
+                      <br>
+                      <h3>Alpha 1.0 Release Coming Soon</h3>
+                      <!-- Display the countdown timer in an element -->
+                    </div>
+                  </div>
+                </div>
+            </div>            
         <div id='preloader' >
             <div class='loader' >
                 <div class="battery"></div>
@@ -86,7 +105,7 @@
                             <p>Murmur is a micro-blogging platform that gives users control of their data, enables tracing the origin of content to prevent the fake news problem, and rewards content creation.</p>
                             <div class="btn-group">
                                 <!-- <a href="#"><img src="img/appstore.png" alt="appstore"></a> -->
-                                <a href="#"><img src="img/playstore.png" alt="playstore"></a>
+                                <button type="button" data-toggle="modal" data-target="#exampleModal"><a class="download-btn"ref="#"><img src="img/playstore_comingSoon.png"  height="54" width="175"alt="Download Play Store"></a></button></button> 
                             </div>
                         </div>
                     </div>
@@ -467,7 +486,7 @@
                             <h2>Try Murmur</h2>
                             <p>Download the Murmur app, create two murmurs and earn 100 MUR tokens right away. Refer 3 friends and earn 40 additional MUR Tokens.<br> <a href="airdrop">Click here</a> to learn more</p>
                             <!-- <a class="download-btn" href="#"><img src="img/appstore.png" alt="Download App Store"></a> -->
-                            <a class="download-btn" href="#"><img src="img/playstore.png" alt="Download Play Store"></a>
+                            <button type="button" data-toggle="modal" data-target="#exampleModal"><a class="download-btn"ref="#"><img src="img/playstore_comingSoon.png"  height="54" width="175"alt="Download Play Store"></a></button></button> 
                         </div>
                     </div>
                     <div class="download-mockup"></div>
@@ -581,6 +600,11 @@
                                     <i class="fa fa-github fa-2x"></i>
                                 </a>
                             </li>
+                            <li>
+                                <a href="t.me/murmurdapp" target="_blank">
+                                    <i class="fa fa-telegram fa-2x"></i>
+                                </a>
+                            </li>
                             <!-- <li>
                                 <a href="https://github.com/Murmurdapp" target="_blank">
                                     <i class="fa fa-reddit fa-2x"></i>
@@ -633,7 +657,8 @@
         <!-- Venobox JS -->
         <script src="js/vendor/venobox.min.js"></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/popUpCounter.js"></script>
 
         <!-- mailchimp -->
         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
