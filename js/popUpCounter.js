@@ -1,32 +1,27 @@
-var target_date = new Date().getTime() + (1000*3600*48); // set the countdown date
-var days, hours, minutes, seconds; // variables for time units
+var countDownDate = new Date("Oct 25, 2018 14:00:00").getTime();
 
-var countdown = document.getElementById("demo"); // get tag element
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-getCountdown();
+  // Get todays date and time
+  var now = new Date().getTime();
 
-setInterval(function () { getCountdown(); }, 1000);
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
 
-function getCountdown(){
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-	// find the amount of "seconds" between now and target
-	var current_date = new Date().getTime();
-	var seconds_left = (target_date - current_date) / 1000;
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
-	days = pad( parseInt(seconds_left / 86400) );
-	seconds_left = seconds_left % 86400;
-		 
-	hours = pad( parseInt(seconds_left / 3600) );
-	seconds_left = seconds_left % 3600;
-		  
-	minutes = pad( parseInt(seconds_left / 60) );
-	seconds = pad( parseInt( seconds_left % 60 ) );
-
-	// format countdown string + set tag value
-	countdown.innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s "; 
-}
-
-function pad(n) {
-	return (n < 10 ? '0' : '') + n;
-}
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);

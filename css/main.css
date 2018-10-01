@@ -85,7 +85,7 @@ h4{
     font-size: 1.5rem;
 }
 h5,h6{
-    font-size: 1.25rem
+    font-size: 1.25rem;
     margin: 0 0 10px;
 }
 img{
@@ -99,7 +99,7 @@ ul{
     padding: 0;
     margin: 0;
 }
-p, li, a, span{}
+
 p{
     font-size: 16px;
     color: #888;
@@ -286,7 +286,6 @@ body.loaded #preloader{
     100%{box-shadow: inset 30px 0px 0px #fff;}
 }
 /* Button Style */
-.btn-group{}
 .btn-group a{
     margin: 5px;
     margin-left: 0;
