@@ -46,7 +46,7 @@ p span
 {
     display: block;
 }
-.sparkboxer-sites__link {
+.card_designer-sites__link {
     width: 100%;
     display: block;
     display: -moz-box;
@@ -62,17 +62,17 @@ p span
     padding: 0.25rem 0.125rem;
     transition: background-color ease-in-out 150ms;
 }
-.sparkboxer-sites__list {
+.card_designer-sites__list {
     width: 100%;
 }
-.sparkboxer-sites {
+.card_designer-sites {
     background-color: #FCFCFC;
     border-top: 1px solid #F3F3F3;
     width: 100%;
     position: relative;
     z-index: 200;
 }
-.sparkboxer-sites__list{
+.card_designer-sites__list{
     margin:0;
     padding:0;
     list-style:none;
@@ -89,7 +89,7 @@ p span
     box-sizing:border-box
     ;width:100%
     }
-.sparkboxer-sites__item{
+.card_designer-sites__item{
     display:inline-block;
     display:-moz-box;
     display:-ms-flexbox;
@@ -101,10 +101,10 @@ p span
     -ms-flex-align:stretch;
     align-items:stretch
     }
-.lt-ie9 .sparkboxer-sites__item{
+.lt-ie9 .card_designer-sites__item{
     display:block
     }
-.sparkboxer-sites__link{
+.card_designer-sites__link{
     width:100%;
     display:block;
     display:-moz-box;
@@ -119,26 +119,26 @@ p span
     height:2.5rem;padding:0.25rem 0.125rem;
     transition:background-color ease-in-out 150ms
    }
-.sparkboxer-sites__link svg{
+.card_designer-sites__link svg{
     width:1.125rem;height:1.125rem
  }
-.sparkboxer-sites__link:hover,.safe-focus .sparkboxer-sites__link:focus{
+.card_designer-sites__link:hover,.safe-focus .card_designer-sites__link:focus{
     background-color:#2D818F;
     box-shadow:none !important
 }
-.sparkboxer-sites__link:active{
+.card_designer-sites__link:active{
     background-color:#27707c
 }
-.sparkboxer-sites__icon{
+.card_designer-sites__icon{
     fill:#D9D9D9;transition:fill ease-in-out 250ms
 }
-.sparkboxer-sites__link:hover
-.sparkboxer-sites__icon,
-.sparkboxer-sites__link:active 
-.sparkboxer-sites__icon,
+.card_designer-sites__link:hover
+.card_designer-sites__icon,
+.card_designer-sites__link:active 
+.card_designer-sites__icon,
 .safe-focus 
-.sparkboxer-sites__link:focus 
-.sparkboxer-sites__icon{fill:#fff}.util-visually-hidden{position:absolute!important;clip:rect(1px 1px 1px 1px);
+.card_designer-sites__link:focus 
+.card_designer-sites__icon{fill:#fff}.util-visually-hidden{position:absolute!important;clip:rect(1px 1px 1px 1px);
     clip:rect(1px, 1px, 1px, 1px);
     padding:0 !important;margin:0 !important;border:0 !important;height:1px !important;width:1px!important;overflow:hidden
 }
