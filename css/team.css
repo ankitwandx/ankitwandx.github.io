@@ -119,15 +119,15 @@ p span
     height:2.5rem;padding:0.25rem 0.125rem;
     transition:background-color ease-in-out 150ms
    }
-.card_designer-sites__link svg{
+.card_designer-sites__link .card_icons{
     width:1.125rem;height:1.125rem
  }
 .card_designer-sites__link:hover,.safe-focus .card_designer-sites__link:focus{
-    background-color:#2D818F;
+    background-color: #3b21ff;
     box-shadow:none !important
 }
 .card_designer-sites__link:active{
-    background-color:#27707c
+    background-color:#3b21ff
 }
 .card_designer-sites__icon{
     fill:#D9D9D9;transition:fill ease-in-out 250ms
@@ -176,3 +176,13 @@ p span
                     font-size:2.5em
                 }
          }
+         */
+        .card_icons li{
+            color: #cccccc;
+        }
+        
+        .card_icons li a {
+            text-decoration: none;
+            cursor: pointer;
+            color: #cccccc;
+        }

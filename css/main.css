@@ -507,6 +507,19 @@ ul.nav > li > a.active{
     overflow: hidden;
     z-index: 1;
 }
+.hero-section.team{
+    background-image: url(../img/team/team-container.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 1;
+}
 .hero-section:before{
     background-color: rgba(0,0,0,0.8);
     content: "";
