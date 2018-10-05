@@ -75,10 +75,15 @@
     .subscribe-section {
         padding: 100px 0;
     }
+    
     .widget-wave {
         background-position: top left;
     }
     .subscribe-wrap{
+        padding-top: 115px;
+        padding-left: 0;
+    }
+    .subscribe-wrap-new{
         padding-top: 115px;
         padding-left: 0;
     }
@@ -190,6 +195,9 @@
     .subscribe-wrap {
         padding-top: 0;
     }
+    .subscribe-wrap-new {
+        padding-top: 0;
+    }
     .footer {
         /*bottom: -80px;*/
         left: 12px;
@@ -209,6 +217,7 @@
     }
     .hero-content p{ font-size: 16px; }
     .subscribe-form{ width: 100%; }
+    .subscribe-form-new{ width: 100%; }
     .download-content h2{
         font-size: 30px;
         margin-bottom: 20px;

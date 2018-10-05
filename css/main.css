@@ -1224,3 +1224,65 @@ ul.nav > li > a.active{
 #roadmap-mobile {
     display: none;
 }
+.subscribe-wrap-new{
+    display: block;
+    padding-top: 30px;
+}
+.subscribe-wrap-new .h3{
+    color: #fff;
+}
+.subscribe-form-new .form_input1{
+    background-color: #bbbaba85;
+    display: block;
+    color: #888;
+    font-size: 14px;
+    line-height: 58px;
+    padding: 0 15px;
+    float: left;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    padding-right: 110px;
+}
+.subscribe-form-new{
+    display: block;
+    width: 500px;
+    position: relative;
+}
+.subscribe-form-new{
+    display: block;
+    width: 500px;
+    position: relative;
+}
+.subscribe-form-new .form_input{
+    background-color: #fff;
+    display: block;
+    color: #888;
+    font-size: 14px;
+    line-height: 58px;
+    padding: 0 15px;
+    float: left;
+    width: 100%;
+    outline: none;
+    border: none;
+    border: none;
+    border-radius: 5px;
+    padding-right: 110px;
+}
+.subscribe-form-new .submit{
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 60px;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #56a2ff;
+}
+.subscribe-form-new .submit:hover{
+    cursor: pointer;
+    color: #3b21ff;
+}
