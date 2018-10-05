@@ -386,7 +386,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     padding: 0 15px;
 }
 ul.nav{}
-ul.nav > li{}
+ul.nav > li{
+    margin: auto;
+    margin-right: 10px;
+}
 ul.nav > li > a{
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Roboto', sans-serif;
@@ -397,7 +400,7 @@ ul.nav > li > a{
     letter-spacing: -1px;
     font-size: 16px;
     font-weight: 600;
-    line-height: 70px;
+    /*line-height: 70px;*/
     z-index: 1;
 }
 ul.nav > li > a:hover,
@@ -1232,7 +1235,7 @@ ul.nav > li > a.active{
     color: #fff;
 }
 .subscribe-form-new .form_input1{
-    background-color: #bbbaba85;
+    background-color: #bbbaba3d;
     display: block;
     color: #888;
     font-size: 14px;
