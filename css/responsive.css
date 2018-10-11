@@ -289,4 +289,52 @@
         padding-bottom: 120px;
     }
 }
-/* ---- End of max-width 380px CSS ---- */
+
+@media only screen and (max-width: 2300px) and (min-width:1900px) {
+    /* For Large Screens */
+    .widget-wave{
+        height: 120%; 
+    }
+}
+@media only screen and (max-width: 2600px) and (min-width:2300px) {
+    .widget-wave{
+        height: 130%; 
+    }
+
+}
+@media only screen and (max-width: 2800px) and (min-width:2600px) {
+    .widget-wave{
+        height: 140%; 
+    }
+
+}
+@media only screen and (max-width: 2945px) and (min-width:2800px) {
+    .widget-wave{
+        height: 140%; 
+    }
+
+}
+@media only screen and (max-width: 3200px) and (min-width:2945px) {
+    .widget-wave{
+        height: 150%; 
+    }
+
+}
+@media only screen and (max-width: 3400px) and (min-width:3200px) {
+    .widget-wave{
+        height: 160%; 
+    }
+
+}
+@media only screen and (max-width: 3760px) and (min-width:3400px) {
+    .widget-wave{
+        height: 170%; 
+    }
+
+} 
+@media only screen and (min-width:3761px) {
+    .widget-wave{
+        height: 183%; 
+    }
+
+} 
