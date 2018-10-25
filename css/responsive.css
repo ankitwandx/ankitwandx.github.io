@@ -32,11 +32,11 @@
     .feature_list,
     .about_content {
         padding: 0;
-    } 
+    }
     ul.nav > li > a {
         padding: 0 5px;
         font-size: 14px;
-    }
+    } 
     .promo-content{
         padding: 0;
     }
@@ -105,7 +105,7 @@
 
 
 /* ---- Start of max-width 767px CSS ---- */
-@media all and (max-width: 767px) {
+@media all and (max-width: 996px) {
     body, p{
         font-size: 14px;
         line-height: 24px;
