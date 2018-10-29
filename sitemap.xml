@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.murmurdapp.com/</loc>
+  <lastmod>2018-10-26T14:48:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.murmurdapp.com/about</loc>
+  <lastmod>2018-10-26T14:44:04+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.murmurdapp.com/airdrop</loc>
+  <lastmod>2018-10-26T14:45:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.murmurdapp.com/vision</loc>
+  <lastmod>2018-10-26T14:49:39+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.murmurdapp.com/team</loc>
+  <lastmod>2018-10-26T14:52:01+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+
+
+</urlset>

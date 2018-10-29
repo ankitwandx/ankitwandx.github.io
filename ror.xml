@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://murmurdapp.com/</title>
+  <link>https://murmurdapp.com/</link>
+
+<item>
+     <link>https://www.murmurdapp.com/</link>
+     <title>Murmur</title>
+     <description>Murmur is a decentralized social media platform that supports free, censorship-resistant and rewarding microblogging.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.murmurdapp.com/about</link>
+     <title>Murmur | About</title>
+     <description>Murmur is a blockchain-based social media platform that enables open, free and rewarding microblogging experiences.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.murmurdapp.com/airdrop</link>
+     <title>Murmur | Airdrop</title>
+     <description>Download the Murmur app and be among the first to receive EOS token MUR. Redeem MUR for in-app purchases and payments.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.murmurdapp.com/vision</link>
+     <title>Murmur | Vision</title>
+     <description>Murmur gives back the power to the people and empowers them to control their own social media experiences and personal data.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.murmurdapp.com/team</link>
+     <title>Murmur | Team</title>
+     <description>Get to know the team behind Murmur - a revolutionary microblogging platform that allows users to control their personal data and social media experiences.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
