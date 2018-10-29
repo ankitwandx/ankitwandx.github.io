@@ -1221,6 +1221,19 @@ ul.nav > li > a.active{
     background-color: #3b21ff;
     color: #fff;
 }
+#scroll-to-top-tele{
+    display: none;
+    width: 45px;
+    height: 105px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    line-height: 45px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+}
 
 /* Roadmap styling */
 

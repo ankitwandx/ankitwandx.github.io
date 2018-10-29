@@ -105,7 +105,7 @@
 
 
 /* ---- Start of max-width 767px CSS ---- */
-@media all and (max-width: 996px) {
+@media all and (max-width: 776px) {
     body, p{
         font-size: 14px;
         line-height: 24px;
@@ -204,7 +204,29 @@
     }
 }
 /* ---- End of max-width 767px CSS ---- */
+@media (max-width:996px) and (min-width:765px) {
+    .navbar-brand{
+        padding: 11px 0;
+    }
+    .menu-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+}
+@media (max-width:776px) and (min-width:763px) {
+    .subscribe-head{
+        margin-top: 150px;
+    }
+}
 
+@media (max-width:996px){
+    #scroll-to-top-tele{
+        display: block;
+    }
+}
 
 /* ---- Start of max-width 520px CSS ---- */
 @media all and (max-width: 520px) {
