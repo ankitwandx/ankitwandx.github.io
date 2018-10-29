@@ -105,7 +105,7 @@
 
 
 /* ---- Start of max-width 767px CSS ---- */
-@media all and (max-width: 776px) {
+@media all and (max-width: 767px) {
     body, p{
         font-size: 14px;
         line-height: 24px;
@@ -222,11 +222,6 @@
     }
 }
 
-@media (max-width:996px){
-    #scroll-to-top-tele{
-        display: block;
-    }
-}
 
 /* ---- Start of max-width 520px CSS ---- */
 @media all and (max-width: 520px) {
