@@ -544,7 +544,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }*/
 .app-mockup{
-    background-image: url(../img/welcome-app.png);
+    background-image: url(../img/screenshots/nm_3.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     content: "";
@@ -965,7 +965,7 @@ ul.nav > li > a.active{
     z-index: 1;
 }
 .download-mockup{
-    background-image: url(../img/welcome-app.png);
+    background-image: url(../img/screenshots/nm_3.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     content: "";
