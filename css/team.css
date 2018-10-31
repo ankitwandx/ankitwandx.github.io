@@ -123,11 +123,11 @@ p span
     width:1.125rem;height:1.125rem
  }
 .card_designer-sites__link:hover,.safe-focus .card_designer-sites__link:focus{
-    background-color: #3b21ff;
+    background-color: #a09fed;
     box-shadow:none !important
 }
 .card_designer-sites__link:active{
-    background-color:#3b21ff
+    background-color:#a09fed
 }
 .card_designer-sites__icon{
     fill:#D9D9D9;transition:fill ease-in-out 250ms
