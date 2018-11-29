@@ -1300,3 +1300,9 @@ ul.nav > li > a.active{
     cursor: pointer;
     color: #3b21ff;
 }
+
+
+.icon-style{
+    height: 90px;
+    width: 90px;
+}
