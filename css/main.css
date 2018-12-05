@@ -322,7 +322,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     -webkit-transition: background-color .5s;
     height: 70px;
     border-bottom: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .navbar-fixed-top ul.nav > li > a{

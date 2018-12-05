@@ -17,9 +17,11 @@
 			yOffset = $(window).scrollTop();
 
 			if (yOffset >= triggerPoint) {
-				header.addClass("navbar-fixed-top");
+                header.addClass("navbar-fixed-top");
+                $('.navbar .navbar-brand img').attr('src','img/logo.png').width(40);
 			} else {
-				header.removeClass("navbar-fixed-top");
+                header.removeClass("navbar-fixed-top");
+                $('.navbar .navbar-brand img').attr('src','img/murmur.png').width(80);
 			}
 		});
 	});
