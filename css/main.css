@@ -560,6 +560,10 @@ ul.nav > li > a.active{
     color: #fff;
     font-size: 45px;
 }
+.hero-content h2{
+    color: #fff;
+    font-size: 35px;
+}
 .hero-content p{
     font-size: 18px;
     color: #fff;
