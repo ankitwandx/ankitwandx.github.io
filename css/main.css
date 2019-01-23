@@ -988,7 +988,7 @@ ul.nav > li > a.active{
     position: absolute;
     width: 100%;
     height: 100%;
-    right: 250px;
+    right: 110px;
     top: 80px;
     z-index: -1;
 }
